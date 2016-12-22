@@ -1,0 +1,613 @@
+<!doctype html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang=""> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8" lang=""> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9" lang=""> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js" lang="">
+<!--<![endif]-->
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title></title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="apple-touch-icon" href="apple-touch-icon.png">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <link rel="stylesheet" href="css/bootstrap-theme.min.css">
+    <link rel="stylesheet" href="css/main.css">
+    <!--[if lt IE 9]>
+        <script src="js/vendor/html5-3.6-respond-1.4.2.min.js"></script>
+    <![endif]-->
+</head>
+
+<body>
+    <!--[if lt IE 8]>
+        <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+    <![endif]-->
+
+
+
+    <div class="page">
+        <header class="header">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-md-2">
+                        <h1 class="sr-only">Logo National Geographic</h1>
+                        <img class="header-logo" src="img/National_Geographic_Society.png" alt="Logo National Geographic">
+                    </div>
+                    <div class="col-md-7 col-md-offset-1">
+                        <form action="" id="search" class="search">
+                            <div class="input-group  search__input-group">
+                                <input type="text" placeholder="Search" class="form-control search__input" aria-label="...">
+                                <div class="input-group-btn search__divWrapperButton">
+                                    <button type="button" class="search__button-categories" >All Categories <span class="caret"></span></button>
+                                    <div class="search__dropdownMenu">
+                                        <input class="search__checkbox" id="search__checkbox" type="checkbox">
+                                        <label class="search__checkboxLabel" for="search__checkbox">Select all categories to search</label>
+                                        <div class="search__dropdownUlGroup">
+                                            <ul class="search__dropDownUl">
+                                                <li class="search__dropdownItem">Videos</li>
+                                                <li class="search__dropdownItem">Photography</li>
+                                                <li class="search__dropdownItem">Animals</li>
+                                                <li class="search__dropdownItem">Games</li>
+                                            </ul>
+                                            <ul class="search__dropDownUl">
+                                                <li class="search__dropdownItem">Environment</li>
+                                                <li class="search__dropdownItem">Travel</li>
+                                                <li class="search__dropdownItem">Kids</li>
+                                                <li class="search__dropdownItem">Adventurer</li>
+                                            </ul>
+                                            <ul class="search__dropDownUl">
+                                                <li class="search__dropdownItem">Television</li>
+                                                <li class="search__dropdownItem">Apps</li>
+                                                <li class="search__dropdownItem">Events</li>
+                                                <li class="search__dropdownItem">Trips</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <button class="btn search__go" type="button">
+                                        <i class="fa fa-arrow-circle-o-right fa-2x" aria-hidden="true"></i>
+                                    </button>
+                                </div>
+
+
+                            </div>
+                        </form>
+                    </div>
+                    <div class="col-md-2">
+                        <div class="btn-group users-group btn-group-justified" role="group" aria-label="...">
+                            <a href="#" class="btn btn-default user-group__sing-up"><i class="fa fa-user-plus" aria-hidden="true"></i><br><i class="users-group__aText">Sing Up</i></a>
+                            <a href="#" class="btn btn-default user-group__login"><i class="fa fa-sign-in" aria-hidden="true"></i><br><i class="users-group__aText">Login</i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <nav class="navigation">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-md-12">
+                        <ul class="navigation__nav">
+                            <li class="navigation__item">
+                                <i class="navigation__item_home"></i>
+                                <a href="#" class="navigation__link active">Home</a>
+                            </li>
+                            <li class="navigation__item ">
+                                <i class="navigation__item_photography"></i>
+                                <a href="#" class="navigation__link">Photography</a></li>
+                            <li class="navigation__item ">
+                                <i class="navigation__item_video"></i>
+                                <a href="#" class="navigation__link">Video</a></li>
+                            <li class="navigation__item ">
+                                <i class="navigation__item_environment"></i>
+                                <a href="#" class="navigation__link">Environment</a></li>
+                            <li class="navigation__item ">
+                                <i class="navigation__item_travel"></i>
+                                <a href="#" class="navigation__link">Travel</a></li>
+                            <li class="navigation__item ">
+                                <i class="navigation__item_adventure"></i>
+                                <a href="#" class="navigation__link">Adventure</a></li>
+                            <li class="navigation__item  ">
+                                <i class="navigation__item_television"></i>
+                                <a href="#" class="navigation__link">Television</a></li>
+                            <li class="navigation__item ">
+                                <i class="navigation__item_kids"></i>
+                                <a href="#" class="navigation__link">Kids</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+        </nav>
+
+        <main class="main">
+            <div class="container-fluid">
+                <div class="row contant1">
+                    <div class="col-md-9">
+                        <div class="contant">
+                            <div class="row">
+                                <div class="col-md-3 border-right">
+                                    <ul class="subMenu">
+
+                                        <li class="subMenu__item subMenu__text_news">
+                                            <a href="#" class="subMenu__link">Daily News</a>
+                                        </li>
+
+                                        <li class="subMenu__item subMenu__text_magazine">
+                                            <a href="#" class="subMenu__link">Magazine</a>
+                                        </li>
+                                        <li class="subMenu__item subMenu__text_maps">
+                                            <a href="#" class="subMenu__link">Maps</a>
+                                        </li>
+                                        <li class="subMenu__item subMenu__text_science">
+                                            <a href="#" class="subMenu__link">Science</a>
+                                        </li>
+                                        <li class="subMenu__item subMenu__text_education">
+                                            <a href="#" class="subMenu__link">Education</a>
+                                        </li>
+                                        <li class="subMenu__item subMenu__text_game">
+                                            <a href="#" class="subMenu__link">Game</a>
+                                        </li>
+                                        <li class="subMenu__item subMenu__text_event">
+                                            <a href="#" class="subMenu__link">Events</a>
+                                        </li>
+                                        <li class="subMenu__item subMenu__text_blog">
+                                            <a href="#" class="subMenu__link">Blogs</a>
+                                        </li>
+                                        <li class="subMenu__item subMenu__text_explorers">
+                                            <a href="#" class="subMenu__link">Explorers</a>
+                                        </li>
+                                        <li class="subMenu__item subMenu__text_trips">
+                                            <a href="#" class="subMenu__link">Trips</a>
+                                        </li>
+                                    </ul>
+                                </div>
+
+                                <div class="col-md-9">
+                                    <ul class="filter" role="tablist">
+                                        <li role="presentation" class="filter__item active">
+                                            <a href="#home" class="filter__link" aria-controls="home" role="tab" data-toggle="tab">Home</a>
+                                        </li>
+                                        <li class="filter__item" role="presentation">
+                                            <a href="#animals" class="filter__link" aria-controls="animals" role="tab" data-toggle="tab">Animals</a>
+                                        </li>
+                                        <li class="filter__item" role="presentation">
+                                            <a href="#ancient" class="filter__link" aria-controls="ancient" role="tab" data-toggle="tab">Ancient</a>
+                                        </li>
+                                        <li class="filter__item" role="presentation">
+                                            <a href="#energy" class="filter__link" aria-controls="energy" role="tab" data-toggle="tab">Energy</a>
+                                        </li>
+                                        <li class="filter__item" role="presentation">
+                                            <a href="#environment" class="filter__link" aria-controls="environment" role="tab" data-toggle="tab">Environment</a>
+                                        </li>
+                                        <li class="filter__item" role="presentation">
+                                            <a href="#travel" class="filter__link" aria-controls="travel" role="tab" data-toggle="tab">Travel</a>
+                                        </li>
+                                    </ul>
+
+                                    <div class="tab-content tab__content">
+                                        <div role="tabpanel" class="tab-pane fade in  active" id="home">
+                                            <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+                                                <!-- Indicators -->
+                                                <ol class="carousel-indicators">
+                                                    <li class="carousel__indButton active" data-target="#carousel-example-generic" data-slide-to="0">1</li>
+                                                    <li class="carousel__indButton" data-target="#carousel-example-generic" data-slide-to="1">2</li>
+                                                    <li class="carousel__indButton" data-target="#carousel-example-generic" data-slide-to="2">3</li>
+                                                </ol>
+
+                                                <!-- Wrapper for slides -->
+                                                <div class="carousel-inner" role="listbox">
+                                                    <div class="item active">
+                                                        <img class="img-responsive carousel__img" src="img/pic.jpg" alt="Lion cubs playing">
+                                                        <div class="flex">
+                                                            <div class="carousel-caption">
+                                                                <h3>Lion Cubs Playing</h3>
+                                                                <p>African lion cubs play in the grass in the Okavango Delta.</p>
+                                                            </div>
+                                                            <div class="carousel__controler">
+                                                                <button class="carousel__button"></button>
+                                                            </div>
+
+                                                        </div>
+                                                    </div>
+                                                    <div class="item">
+                                                        <img class="img-responsive carousel__img" src="img/pic2.jpg" alt="Lion cubs playing">
+                                                        <div class="flex">
+                                                            <div class="carousel-caption">
+                                                                <h3>Lion Cubs Playing</h3>
+                                                                <p>African lion cubs play in the grass in the Okavango Delta.</p>
+                                                            </div>
+                                                            <div class="carousel__controler">
+                                                                <button class="carousel__button"></button>
+                                                            </div>
+
+                                                        </div>
+                                                    </div>
+                                                    <div class="item">
+                                                        <img class="img-responsive carousel__img" src="img/pic3.jpg" alt="Lion cubs playing">
+                                                        <div class="flex">
+                                                            <div class="carousel-caption">
+                                                                <h3>Lion Cubs Playing</h3>
+                                                                <p>African lion cubs play in the grass in the Okavango Delta.</p>
+                                                            </div>
+                                                            <div class="carousel__controler">
+                                                                <button class="carousel__button" type="button"></button>
+                                                            </div>
+
+                                                        </div>
+                                                    </div>
+                                                </div>
+
+                                            </div>
+
+                                        </div>
+                                        <div role="tabpanel" class="tab-pane fade" id="animals">...</div>
+                                        <div role="tabpanel" class="tab-pane fade" id="ancient">...</div>
+                                        <div role="tabpanel" class="tab-pane fade" id="energy">...</div>
+                                        <div role="tabpanel" class="tab-pane fade" id="environment">...</div>
+                                        <div role="tabpanel" class="tab-pane fade" id="travel">...</div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <div class="titleSet">
+                                        <h4 class="titleSet__heading">Latest News</h4>
+                                        <div class="btn-group titleSet__btnGroup">
+                                            <button type="button" class=" titleSet__buttonDropDown  dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                                Most Recent <span class="caret"></span>
+                                            </button>
+                                            <ul class="dropdown-menu titleSet__dropdown">
+                                                <li class="titleSet__item"><a class="titleSet__link" href="#">Most Viewd</a></li>
+                                                <li class="titleSet__item"><a class="titleSet__link" href="#">Most Recent</a></li>
+                                                <li class="titleSet__item"><a class="titleSet__link" href="#">Most Discussed</a></li>
+                                                <li class="titleSet__item"><a class="titleSet__link" href="#">Most Rated</a></li>
+                                            </ul>
+                                        </div>
+                                        <div class="btn-group titleSet__groupBut" role="group" aria-label="...">
+                                            <button type="button" class="btn titleSet__list"></button>
+                                            <button type="button" class="btn titleSet__grid activeBtn"></button>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-6 col-sm-6">
+                                    <article class="newsBox">
+                                        <section class="newsBox__head">
+                                            <img class="img-responsive" src="img/news_pic1.jpg" alt="African Lion">
+                                            <div class="flex">
+                                                <div class="newsBox__heading">
+                                                    <h4 class="newsBox__h4">African Lion Cub</h4>
+                                                    <time class="newsBox__time">3 hours ago</time>
+                                                </div>
+                                                <div class="newsBox__votes newsBox__votes_fourStar">
+                                                    1,291 votes
+                                                </div>
+                                            </div>
+                                        </section>
+                                        <p class="newsBox__article">An African lion cub rests in the tall grasses of Botswana’s Okavango Delta. Once ranging across the African continent and into Syria, Israel, Iraq, Pakistan, Iran, and even northwest India, lions have declined to as few as 20,000 animals from about 450,000 just 50 years ago.</p>
+                                        <div class="newsBox__hover"></div>
+                                    </article>
+                                </div>
+                                <div class="col-md-6 col-sm-6">
+                                    <article class="newsBox">
+                                        <section class="newsBox__head">
+                                            <img class="img-responsive" src="img/news_pic2.jpg" alt="Young Mountain Gorilla">
+                                            <div class="flex">
+                                                <div class="newsBox__heading">
+                                                    <h4 class="newsBox__h4">Young Mountain Gorilla</h4>
+                                                    <time class="newsBox__time">5 hours ago</time>
+                                                </div>
+                                                <div class="newsBox__votes newsBox__votes_threeStar">
+                                                    942 votes
+                                                </div>
+                                            </div>
+                                        </section>
+                                        <p class="newsBox__article">This young mountain gorilla, named Kwibesha, is a member of the Kabrizi family of gorillas in Virunga National Park. Wildlife rangers in the park have had to suspend their monitoring of the gorillas because rebel militias and the Congolese army occupy much of their habitat.</p>
+                                        <div class="newsBox__hover">
+                                        </div>
+                                    </article>
+                                </div>
+                                <div class="col-md-6 col-sm-6">
+                                    <article class="newsBox">
+                                        <section class="newsBox__head">
+                                            <img class="img-responsive" src="img/news_pic3.jpg" alt="King Penguins">
+                                            <div class="flex">
+                                                <div class="newsBox__heading">
+                                                    <h4 class="newsBox__h4">King Penguins</h4>
+                                                    <time class="newsBox__time">8 hours ago</time>
+                                                </div>
+                                                <div class="newsBox__votes newsBox__votes_twoStar">
+                                                    681 votes
+                                                </div>
+                                            </div>
+                                        </section>
+                                        <p class="newsBox__article">King penguins live on the more temperate islands north of Antarctica. Although their habitat is warmer than that of emperor penguins, king penguins have four layers of feathers and huddle together for warmth.</p>
+                                        <div class="newsBox__hover"></div>
+                                    </article>
+                                </div>
+                                <div class="col-md-6 col-sm-6">
+                                    <article class="newsBox">
+                                        <section class="newsBox__head">
+                                            <img class="img-responsive" src="img/news_pic4.jpg" alt="Great White Shark">
+                                            <div class="flex">
+                                                <div class="newsBox__heading">
+                                                    <h4 class="newsBox__h4">Great White Shark</h4>
+                                                    <time class="newsBox__time">1 day ago</time>
+                                                </div>
+                                                <div class="newsBox__votes newsBox__votes_fiveStar">
+                                                    2,827 votes
+                                                </div>
+                                            </div>
+                                        </section>
+                                        <p class="newsBox__article">The legendary great white shark is far more fearsome in our imaginations than in reality. As scientific research on these elusive predators increases, their image as mindless killing machines is beginning to fade.</p>
+                                        <div class="newsBox__hover"></div>
+                                    </article>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                       
+                        <aside class="aside container-fluid">
+                            <section class="mostPopularNews row">
+
+                                <h4 class="aside__hrading mostPopularNews__heading">Most Popular News</h4>
+
+                                <section class="newsBox__head col-md-12 col-sm-6">
+                                    <img class="img-responsive" src="img/newsaside1.jpg" alt="The Bite That Heals">
+                                    <div class="flex">
+                                        <div class="newsBox__heading">
+                                            <h4 class="newsBox__h4">The Bite That Heals</h4>
+                                            <time class="newsBox__time">6 days ago</time>
+                                        </div>
+                                        <div class="newsBox__votes newsBox__votes_fiveStar">
+                                            71,482 votes
+                                        </div>
+                                    </div>
+                                </section>
+
+                                <section class="newsBox__head col-md-12 col-sm-6">
+                                    <img class="img-responsive" src="img/newsaside2.jpg" alt="Stranger Than Nature">
+                                    <div class="flex">
+                                        <div class="newsBox__heading">
+                                            <h4 class="newsBox__h4">Stranger Than Nature</h4>
+                                            <time class="newsBox__time">8 days ago</time>
+                                        </div>
+                                        <div class="newsBox__votes newsBox__votes_fiveStar">
+                                            64,159 votes
+                                        </div>
+                                    </div>
+                                </section>
+
+                            </section>
+                            <section class="mostPopularVideo row">
+                                <h4 class="aside__hrading mostPopularVideo__heading">Most Popular Videos</h4>
+
+                                <div class="mostPopularVideo__block mostPopularVideo__block_rareBird col-md-12 col-sm-6">
+                                    <div class="mostPopularVideo__hover"></div>
+                                    <h5 class="mostPopularVideo__name">
+                                        Most Rare Birds Ever
+                                    </h5>
+                                    <p class="mostPopularVideo__views">
+                                        211,482 views
+                                    </p>
+                                    <i class="fa fa-play-circle-o mostPopularVideo__play" aria-hidden="true"></i>
+
+                                </div>
+
+                                <div class="mostPopularVideo__block mostPopularVideo__block_mandarinDragonet col-md-12 col-sm-6">
+                                    <div class="mostPopularVideo__hover"></div>
+                                    <h5 class="mostPopularVideo__name">
+                                       Mandarin Dragonet
+                                    </h5>
+                                    <p class="mostPopularVideo__views">
+                                        192,029 views
+                                    </p>
+                                    <i class="fa fa-play-circle-o mostPopularVideo__play" aria-hidden="true"></i>
+
+                                </div>
+                            </section>
+
+                            <section class="upcomingEvents row">
+                                <h3 class="aside__hrading upcomingEvents__heading_upcomingEvent">Upcoming Events</h3>
+                                <i class="fa fa-arrow-circle-o-left upcomingEvents__left" aria-hidden="true"></i>
+                                <span class="upcomingEvents__divide">|</span>
+                                <i class="fa fa-arrow-circle-o-right upcomingEvents__right" aria-hidden="true"></i>
+
+                                <section class="upcomingEvents__event col-md-12 ">
+                                    <h4 class="upcomingEvents__articleHeading">
+                                        NatGeo Live Student Matinees
+                                    </h4>
+                                    <img class="img-responsive upcomingEvents__img" src="img/eventImg.jpg" alt="NatGeo Live Student Matinees">
+                                    <p class="upcomingEvents__time">April 17, 2013</p>
+                                    <p class="upcomingEvents__text">Live Student Matinees offer students in USA and Canada entertaining and visually spectacular presentations by leading explorers</p>
+                                </section>
+                            </section>
+
+                            <div class="wrapperButton flex row">
+
+                                <button class="shoppingButton">
+                                    <span class="shoppingButton__divide">|</span>
+                                    <p class="shoppingButton__text">Shopping</p>
+                                </button>
+                                <button class="subscripButton">
+                                    <span class="subscripButton__divide">|</span>
+                                    <p class="subscripButton__text">Subscriptions</p>
+                                </button>
+                            </div>
+                        </aside>
+                    </div>
+                   
+                </div>
+                <div class="row">
+                    <div class="col-md-12">
+                        <section class="magazines">
+                            <h3 class="magazines__heading">National Geographic Magazines</h3>
+                            <i class="fa fa-arrow-circle-o-left magazines__left" aria-hidden="true"></i>
+                            <span class="magazines__divide">|</span>
+                            <i class="fa fa-arrow-circle-o-right magazines__right" aria-hidden="true"></i>
+
+                            <div class="magazines__contentInfinity">
+                                <div class="magazines__product">
+                                    <section class="magazines__productHead">
+                                        <img src="img/product1.jpg" alt="National Geographic Magazine">
+                                        <h4 class="magazines__title">National Geographic Magazine </h4>
+                                    </section>
+                                    <div class="magazines__votes">
+                                        <img src="img/star5.png" alt="five star">
+                                        <p class="magazines__votesCount">7,726 votes</p>
+                                    </div>
+                                    <button type="button" class="magazines__subscribe">
+                                        <span class="magazines__subscribeDiv">|</span>
+                                        <p class="magazines__subscribeText">subscribe</p>
+                                    </button>
+                                </div>
+
+                                <div class="magazines__product">
+                                    <section class="magazines__productHead">
+                                        <img src="img/product2.jpg" alt="National Geographic Kids Magazine">
+                                        <h4 class="magazines__title">National Geographic Kids Magazine</h4>
+                                    </section>
+                                    <div class="magazines__votes">
+                                        <img src="img/star4.jpg" alt="four star">
+                                        <p class="magazines__votesCount">5,841 votes</p>
+                                    </div>
+                                    <button type="button" class="magazines__subscribe">
+                                        <span class="magazines__subscribeDiv">|</span>
+                                        <p class="magazines__subscribeText">subscribe</p>
+                                    </button>
+                                </div>
+
+                                <div class="magazines__product">
+                                    <section class="magazines__productHead">
+                                        <img src="img/product3.jpg" alt="NG Young Explorer Magazine">
+                                        <h4 class="magazines__title">NG Young Explorer Magazine</h4>
+                                    </section>
+                                    <div class="magazines__votes">
+                                        <img src="img/star5.png" alt="five star">
+                                        <p class="magazines__votesCount">6,121 votes</p>
+                                    </div>
+                                    <button type="button" class="magazines__subscribe">
+                                        <span class="magazines__subscribeDiv">|</span>
+                                        <p class="magazines__subscribeText">subscribe</p>
+                                    </button>
+                                </div>
+
+                                <div class="magazines__product">
+                                    <section class="magazines__productHead">
+                                        <img src="img/product4.jpg" alt="National Geographic Little">
+                                        <h4 class="magazines__title">National Geographic Little</h4>
+                                    </section>
+                                    <div class="magazines__votes">
+                                        <img src="img/star5.png" alt="five star">
+                                        <p class="magazines__votesCount">9,107 votes</p>
+                                    </div>
+                                    <button type="button" class="magazines__subscribe">
+                                        <span class="magazines__subscribeDiv">|</span>
+                                        <p class="magazines__subscribeText">subscribe</p>
+                                    </button>
+                                </div>
+
+                                <div class="magazines__product">
+                                    <section class="magazines__productHead">
+                                        <img src="img/product1.jpg" alt="National Geographic Magazine">
+                                        <h4 class="magazines__title">National Geographic Magazine </h4>
+                                    </section>
+                                    <div class="magazines__votes">
+                                        <img src="img/star5.png" alt="five star">
+                                        <p class="magazines__votesCount">7,726 votes</p>
+                                    </div>
+                                    <button type="button" class="magazines__subscribe">
+                                        <span class="magazines__subscribeDiv">|</span>
+                                        <p class="magazines__subscribeText">subscribe</p>
+                                    </button>
+                                </div>
+
+                                <div class="magazines__product">
+                                    <section class="magazines__productHead">
+                                        <img src="img/product4.jpg" alt="National Geographic Little">
+                                        <h4 class="magazines__title">National Geographic Little</h4>
+                                    </section>
+                                    <div class="magazines__votes">
+                                        <img src="img/star5.png" alt="five star">
+                                        <p class="magazines__votesCount">9,107 votes</p>
+                                    </div>
+                                    <button type="button" class="magazines__subscribe">
+                                        <span class="magazines__subscribeDiv">|</span>
+                                        <p class="magazines__subscribeText">subscribe</p>
+                                    </button>
+                                </div>
+
+
+                                <div class="magazines__product">
+                                    <section class="magazines__productHead">
+                                        <img src="img/product2.jpg" alt="National Geographic Kids Magazine">
+                                        <h4 class="magazines__title">National Geographic Kids Magazine</h4>
+                                    </section>
+                                    <div class="magazines__votes">
+                                        <img src="img/star4.jpg" alt="four star">
+                                        <p class="magazines__votesCount">5,841 votes</p>
+                                    </div>
+                                    <button type="button" class="magazines__subscribe">
+                                        <span class="magazines__subscribeDiv">|</span>
+                                        <p class="magazines__subscribeText">subscribe</p>
+                                    </button>
+                                </div>
+                            </div>
+                        </section>
+                    </div>
+                </div>
+            </div>
+        </main>
+        <footer class="footer">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="footer__subscribe">
+                            <div class="input-group footer__inputGroup">
+                                <input type="text" class="form-control footer__InputText" placeholder="type you email">
+                                <span class="input-group-btn">
+                              <button class="btn  footer__buttonSub" type="button">Subscribe</button>
+                            </span>
+                            </div>
+                            <div class="footer__GroupIco">
+                                <i class="fa fa-facebook footer__ico" aria-hidden="true"></i>
+                                <i class="fa fa-twitter footer__ico" aria-hidden="true"></i>
+                                <i class="fa fa-play footer__ico" aria-hidden="true"></i>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="col-md-6">
+                        <div class="footer__right">
+                            <nav class="footer__nav">
+                                <ul class="footer__navigation">
+                                    <li class="footer__item"><a href="#" class="footer__link">Customer Service</a></li>
+                                    <li class="footer__item"><a href="#" class="footer__link">Advertise With Us </a></li>
+                                    <li class="footer__item"><a href="#" class="footer__link">Terms of Service</a></li>
+                                    <li class="footer__item"><a href="#" class="footer__link">Privacy Policy</a></li>
+                                </ul>
+                            </nav>
+                            <p class="footer__copy">© 1996-2013 National Geographic Society. All rights reserved</p>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <script>
+        window.jQuery || document.write('<script src="js/vendor/jquery-1.11.2.min.js"><\/script>')
+    </script>
+    <script src="js/vendor/bootstrap.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
