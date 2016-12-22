@@ -1,0 +1,15 @@
+body{
+    background-size: cover;
+}
+.chooseColor{
+    margin: auto;
+    width: 306px;
+    flex-flow: wrap;
+    display: none
+}
+.color{
+    height: 60px;
+    width: 100px;
+    border: 1px solid black;
+    background-size: cover;
+}
