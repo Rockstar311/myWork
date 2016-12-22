@@ -1,0 +1,384 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Zazor.com.ua</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <div class="page">
+        <header class="header">
+            <div class="header__top">
+                <div class="header__telephone">
+                    <img src="img/tel.png" alt="телефон">
+                    <p>(044)123-45-67 (044)567-89-10 </p>
+                </div>
+                <div class="header__avtoriz">
+                    <img src="img/avtoriz.png" alt="man">
+                    <form class="header__form" action="#">
+                        <div>
+                            <input type="text" class="avtoriz__input" id="avtoriz__login" placeholder="логин" required>
+
+                        </div>
+                        <div>
+                            <input type="password" class="avtoriz__input avtoriz__input2" placeholder="пароль" required>
+                        </div>
+                        <div>
+                            <input type="submit" class="avtoriz__but" value="вход">
+                        </div>
+                        <span class="linerVertical">|</span>
+                        <div>
+                            <input type="button" class="avtoriz__but" value="регистрация">
+                        </div>
+                    </form>
+                    <a class="avtoriz__forgotPass" href="#">забыли пароль?</a>
+                </div>
+                <div class="header__navi">
+                    <a href="#">
+                        <img src="img/home.png" alt="home"></a>
+                    <a href="#">
+                        <img src="img/map_site.png" alt="map_site"></a>
+                    <a href="#">
+                        <img src="img/letter.png" alt="letter">
+                    </a>
+                </div>
+            </div>
+            <img class="header__logo" src="img/blick-copy.jpg" alt="zazor.com.ua">
+        </header>
+        <div class="menu">
+            <nav class="navigation">
+                <ul class="navigation__ul">
+                    <li class="navigation__item itemChoose"><a href="#" class="navigation__link">О КОМПАНИ</a></li>
+                    <li class="navigation__item"><a href="#" class="navigation__link">ОПЛАТА</a></li>
+                    <li class="navigation__item"><a href="#" class="navigation__link">ДОСТАВКА</a></li>
+                    <li class="navigation__item"><a href="#" class="navigation__link">СТАТЬИ</a></li>
+                    <li class="navigation__item"><a href="#" class="navigation__link">КОНТАКТЫ</a></li>
+                </ul>
+            </nav>
+            <div class="menu__bascat">
+                <span class="bascat__text1">товаров:</span>
+                <span class="bascat__text2">0</span>
+                <span class="bascat__text1">на сумму:</span>
+                <span class="bascat__text2">0,00 грн.</span>
+            </div>
+        </div>
+        <main class="main">
+            <div class="main__search">
+                <section class="search__bycar">
+                    <h2 class="search__by search__byPosition">Поиск по автомобилю</h2>
+                    <form action="" id="form1Search" class="wrapperFlex">
+                        <section class="search__disc">
+                            <h3 class="search__h3">Диски:</h3>
+                            <div class="wrapperFlex">
+                                <div class="search__divLabel">
+                                    <label for="disc__mark" class="search__label">Марка <span>авто:</span>
+                                    </label>
+
+                                    <label for="disc__model" class="search__label">Модель <span>автомобиля:</span>
+                                    </label>
+
+                                    <label for="disc__year" class="search__label">Год выпуска <span>автомобиля:</span>
+                                    </label>
+
+                                    <label for="disc__complect" class="search__label">Комплектация:
+                                    </label>
+                                </div>
+                                <div class="search__divSelect">
+                                    <select class="search__select" name="mark" id="disc__mark"></select>
+                                    <select class="search__select" name="model" id="disc__model"></select>
+                                    <select class="search__select" name="year" id="disc__year"></select>
+                                    <select class="search__select" name="complect" id="disc__complect"></select>
+
+                                </div>
+                            </div>
+                        </section>
+                        <section class="search__tires">
+                            <h3 class="search__h3 search__h3Right">Шины:</h3>
+                            <div class="wrapperFlex">
+                                <div class="search__divLabel">
+                                    <label for="tires__mark" class="search__label">Марка <span>авто:</span>
+                                    </label>
+
+                                    <label for="tires__model" class="search__label">Модель <span>автомобиля:</span>
+                                    </label>
+
+                                    <label for="tires__year" class="search__label">Год выпуска <span>автомобиля:</span>
+                                    </label>
+
+                                    <label for="tires__complect" class="search__label">Комплектация:
+                                    </label>
+                                </div>
+                                <div class="search__divSelect">
+                                    <select class="search__select" name="mark" id="tires__mark"></select>
+                                    <select class="search__select" name="model" id="tires__model"></select>
+                                    <select class="search__select" name="year" id="tires__year"></select>
+                                    <select class="search__select" name="complect" id="tires__complect"></select>
+
+                                </div>
+                            </div>
+                        </section>
+
+                    </form>
+                    <input form="form1Search" class="search__submit" type="submit" value="поиск...">
+                </section>
+                <section class="search__bytires">
+                    <h2 class="search__by">поиск шин</h2>
+                    <form id="form2Search" class="wrapperFlex" action="">
+                        <div class="search__divLabel2">
+                            <label for="search__bytiresSize" class="search__labelTires">Размер:
+                            </label>
+
+                            <label for="search__bytiresR" class="search__labelTires">R
+                                <br>
+                            </label>
+
+                            <label class="search__labelTires">Сезон:
+                            </label>
+
+                        </div>
+                        <div class="search__divSelect2">
+                            <div>
+                                <select class="search__select50" name="size" id="search__bytiresSize"></select> <span>/</span>
+                                <select class="search__select50" name="size2"></select>
+                            </div>
+                            <div>
+                                <select class="search__select50" name="radius" id="search__bytiresR"></select>
+                            </div>
+                            <div>
+                                <input id="checked__summer" class="search__check" type="checkbox">
+                                <label for="checked__summer" class="search__checkText">лето</label>
+                                <br>
+                                <input id="checked__winter" class="search__check" type="checkbox">
+                                <label for="checked__winter" class="search__checkText">зима</label>
+                                <br>
+                                <input id="checked__allseason" class="search__check" type="checkbox">
+                                <label for="checked__allseason" class="search__checkText">всесез</label>
+                            </div>
+                        </div>
+                    </form>
+                    <input form="form2Search" class="search__submit" type="submit" value="поиск...">
+                </section>
+                <section class="search__bydisc">
+                    <h2 class="search__by">поиск дисков</h2>
+                    <form id="form3Search" class="wrapperFlex" action="#">
+                        <div class="search__divLabel">
+                            <label for="search__byDiskD" class="search__label fontLucida">Диаметр <span>диска:</span>
+                            </label>
+
+                            <label for="search__byDiskMuchOut" class="search__label">Количество <span>отверстий:</span>
+                            </label>
+
+
+                            <label for="search__byDiskDOut" class="search__label">Диаметр <span>крепёжных отверстий:</span>
+                            </label>
+                        </div>
+                        <div class="search__divSelect">
+                            <select class="search__select55" name="DDick" id="search__byDiskD"></select>
+                            <select class="search__select55" name="MuchOut" id="search__byDiskMuchOut"></select>
+                            <select class="search__select55" name="DOut" id="search__byDiskDOut"></select>
+                        </div>
+                        <div class="search__divLabelSelect">
+                            <label class="search__label3" for="">ДЦО <span>(диаметр центрального отверстия):</span>
+                                <select class="search__select55Margen3" name="" id=""></select>
+                            </label>
+                            <label class="search__label3" for="">ЕТ <span>(вылет диска):</span>
+                                <select class="search__select55Margen3" name="" id=""></select>
+                            </label>
+                        </div>
+                    </form>
+                    <input form="form3Search" class="search__submit" type="submit" value="поиск...">
+                </section>
+            </div>
+            <div class="wrapperFlex">
+                <aside class="asideLeft">
+                    <h2 class="aside__h2">КАТАЛОГ ПРОДУКЦИИ:</h2>
+                    <section class="asideLeft__category">
+                        <h3 class="asideLeft__h3">ШИНЫ</h3>
+                        <ul class="asideLeft__list">
+                            <li class="asideLeft__item">Наименование 1</li>
+                            <li class="asideLeft__item">Наименование 2</li>
+                            <li class="asideLeft__item">Наименование 3</li>
+                            <li class="asideLeft__item">Наименование 4</li>
+                        </ul>
+                    </section>
+                    <section class="asideLeft__category">
+                        <h3 class="asideLeft__h3">ДИСКИ</h3>
+                        <ul class="asideLeft__list">
+                            <li class="asideLeft__item">Наименование 1</li>
+                            <li class="asideLeft__item">Наименование 2</li>
+                            <li class="asideLeft__item">Наименование 3</li>
+                            <li class="asideLeft__item">Наименование 4</li>
+                        </ul>
+                    </section>
+                    <section class="asideLeft__category">
+                        <h3 class="asideLeft__h3">БОЛТЫ</h3>
+                        <ul class="asideLeft__list">
+                            <li class="asideLeft__item">Наименование 1</li>
+                            <li class="asideLeft__item">Наименование 2</li>
+                            <li class="asideLeft__item">Наименование 3</li>
+                            <li class="asideLeft__item">Наименование 4</li>
+                        </ul>
+                    </section>
+                </aside>
+                <div class="content">
+                    <section class="content__wheels">
+                        <hgroup>
+                            <h3 class="content__firm">Goodyear </h3>
+                            <h4 class="content__typeWheels">Ultra Grip Extreme</h4>
+                        </hgroup>
+                        <div class="content__wrapperImg">
+                            <img class="content__imgWheels" src="img/wheel1.jpg" alt="Wheel">
+                        </div>
+                        <p class="content__priceWheels">90.00 грн.</p>
+                    </section>
+                    <section class="content__wheels">
+                        <hgroup>
+                            <h3 class="content__firm">Nokian </h3>
+                            <h4 class="content__typeWheels">Hakkapeliitta R</h4>
+                        </hgroup>
+                        <div class="content__wrapperImg">
+                            <img class="content__imgWheels" src="img/wheel2.jpg" alt="Wheel">
+                        </div>
+                        <p class="content__priceWheels">115.00 грн.</p>
+                    </section>
+                    <section class="content__wheels">
+                        <hgroup>
+                            <h3 class="content__firm">Hankook </h3>
+                            <h4 class="content__typeWheels">K 708 155/65 R14 </h4>
+                        </hgroup>
+                        <div class="content__wrapperImg">
+                            <img class="content__imgWheels" src="img/wheel3.jpg" alt="Wheel">
+                        </div>
+                        <p class="content__priceWheels">393.00 грн.</p>
+                    </section>
+                     <section class="content__wheels">
+                        <hgroup>
+                            <h3 class="content__firm">Goodyear </h3>
+                            <h4 class="content__typeWheels">Ultra Grip Extreme</h4>
+                        </hgroup>
+                        <div class="content__wrapperImg">
+                            <img class="content__imgWheels" src="img/wheel1.jpg" alt="Wheel">
+                        </div>
+                        <p class="content__priceWheels">90.00 грн.</p>
+                    </section>
+                    <section class="content__wheels">
+                        <hgroup>
+                            <h3 class="content__firm">Nokian </h3>
+                            <h4 class="content__typeWheels">Hakkapeliitta R</h4>
+                        </hgroup>
+                        <div class="content__wrapperImg">
+                            <img class="content__imgWheels" src="img/wheel2.jpg" alt="Wheel">
+                        </div>
+                        <p class="content__priceWheels">115.00 грн.</p>
+                    </section>
+                    <section class="content__wheels">
+                        <hgroup>
+                            <h3 class="content__firm">Hankook </h3>
+                            <h4 class="content__typeWheels">K 708 155/65 R14 </h4>
+                        </hgroup>
+                        <div class="content__wrapperImg">
+                            <img class="content__imgWheels" src="img/wheel3.jpg" alt="Wheel">
+                        </div>
+                        <p class="content__priceWheels">393.00 грн.</p>
+                    </section>
+                     <section class="content__wheels">
+                        <hgroup>
+                            <h3 class="content__firm">Goodyear </h3>
+                            <h4 class="content__typeWheels">Ultra Grip Extreme</h4>
+                        </hgroup>
+                        <div class="content__wrapperImg">
+                            <img class="content__imgWheels" src="img/wheel1.jpg" alt="Wheel">
+                        </div>
+                        <p class="content__priceWheels">90.00 грн.</p>
+                    </section>
+                    <section class="content__wheels">
+                        <hgroup>
+                            <h3 class="content__firm">Nokian </h3>
+                            <h4 class="content__typeWheels">Hakkapeliitta R</h4>
+                        </hgroup>
+                        <div class="content__wrapperImg">
+                            <img class="content__imgWheels" src="img/wheel2.jpg" alt="Wheel">
+                        </div>
+                        <p class="content__priceWheels">115.00 грн.</p>
+                    </section>
+                    <section class="content__wheels">
+                        <hgroup>
+                            <h3 class="content__firm">Hankook </h3>
+                            <h4 class="content__typeWheels">K 708 155/65 R14 </h4>
+                        </hgroup>
+                        <div class="content__wrapperImg">
+                            <img class="content__imgWheels" src="img/wheel3.jpg" alt="Wheel">
+                        </div>
+                        <p class="content__priceWheels">393.00 грн.</p>
+                    </section>
+                </div>
+                <aside class="asideRight">
+                    <h2 class="aside__h2">БРЕНДЫ:</h2>
+                    <form action="">
+                        <section class="asideRight__category">
+                            <h3 class="asideRight__h3">ШИНЫ:</h3>
+                            <div class="asideRight__divWrapLabel">
+                                <div>
+                                    <input type="checkbox" name="" id="Tiresbrand1">
+                                    <label for="Tiresbrand1" class="asideRight__label">Бренд 1</label>
+                                </div>
+                                <div>
+                                    <input type="checkbox" name="" id="Tiresbrend2">
+                                    <label for="Tiresbrend2" class="asideRight__label">Бренд 2</label>
+                                </div>
+                                <div>
+                                    <input type="checkbox" name="" id="Tiresbrend3">
+                                    <label for="Tiresbrend3" class="asideRight__label">Бренд 3</label>
+                                </div>
+                            </div>
+                        </section>
+                        <section class="asideRight__category">
+                            <h3 class="asideRight__h3">ДИСКИ:</h3>
+                            <div class="asideRight__divWrapLabel">
+                                <div>
+                                    <input type="checkbox" name="" id="Disckbrand1">
+                                    <label for="Disckbrand1" class="asideRight__label">Бренд 1</label>
+                                </div>
+                                <div>
+                                    <input type="checkbox" name="" id="Disckbrend2">
+                                    <label for="Disckbrend2" class="asideRight__label">Бренд 2</label>
+                                </div>
+                                <div>
+                                    <input type="checkbox" name="" id="Disckbrend3">
+                                    <label for="Disckbrend3" class="asideRight__label">Бренд 3</label>
+                                </div>
+                        </section>
+                        <input class="asideRight__submit" type="submit" value="ВЫБРАТЬ">
+                    </form>
+                </aside>
+                </div>
+        </main>
+        <footer class="footer">
+            <div class="footer__brandLogo">
+                <img src="img/brand1.png" alt="">
+                <img src="img/brand2.png" alt="">
+                <img src="img/brand3.png" alt="">
+                <img src="img/brand4.png" alt="">
+                <img src="img/brand5.png" alt="">
+                <img src="img/brand6.png" alt="">
+                <img src="img/brand7.png" alt="">
+                <img src="img/brand8.png" alt="">
+            </div>
+            
+            <div class="footer__foot">
+                <ul class="footer__list">
+                    <li class="footer__item"><a class="footer__link" href="#">О компании</a><span>| </span></li>
+                    <li class="footer__item"><a class="footer__link" href="#">Доставка</a><span>| </span></li>
+                    <li class="footer__item"><a class="footer__link" href="#">Статьи</a><span>| </span></li>
+                    <li class="footer__item"><a class="footer__link" href="#">Контакты   </a></li>
+                </ul>
+                <p class="footer__copy">Создание сайта © Global Vision</p>
+            </div>
+        </footer>
+        </div>
+</body>
+
+</html>

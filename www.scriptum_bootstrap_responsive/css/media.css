@@ -1,0 +1,106 @@
+/*==========  Desktop First Method  ==========*/
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px) {
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+    .indentsDefault{
+        padding: 50px 0;
+    }
+    .webDevelopment{
+        padding-bottom: 20px;
+    }
+    .quoters__text{
+        padding: 0 50px;
+        margin-top: 10%;
+    }
+    #carouselQ{
+        margin-bottom: 50px;
+    }
+    .work__img{
+        width: 45%;
+        height: 45%;
+    }
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+	.work__img{
+        width: 80%;
+        height: 80%;
+    }
+    .headingDefault{
+        font-size: 25px;
+        margin-bottom: 15px;
+    
+    }
+    #inputName{
+    margin-bottom: 15px;
+}
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px) {
+    .header__svgLogo{
+        height: 63px;
+        width: 37px;
+    }
+    .header__svgMenu{
+        height: 50px;
+        width: 33px;
+        top: 10px;
+    }
+    .header__menuUnder{
+       height: 50px;
+        width: 33px;
+        top: 15px;
+    }
+    .work__item{
+        margin: 0 10px;
+    }
+    .col-xxs-11{
+        width: 80%;
+        float: left;
+    }
+    .col-xxs-1{
+        width: 10%;
+        float: left;
+    }
+    
+}
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 320px) {
+	
+}
+
+
+/*==========  Mobile First Method  ==========*/
+
+/* Custom, iPhone Retina */
+@media only screen and (min-width : 320px) {
+
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 480px) {
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+
+}
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+
+}
